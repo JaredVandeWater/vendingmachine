@@ -16,6 +16,7 @@ function _drawPurchase() {
             </div>
         </div>`
 
+
 }
 
 

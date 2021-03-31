@@ -7,6 +7,7 @@ class AppState extends EventEmitter {
   money = 20
   snacks = [new snack("Doritos", 1.75), new snack("Cheetos", 1.50), new snack("Fritos", 2)]
   lastSnack = ''
+
 }
 
 export const ProxyState = new Proxy(new AppState(), {
